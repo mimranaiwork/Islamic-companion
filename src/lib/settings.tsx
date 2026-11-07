@@ -54,6 +54,8 @@ export type Settings = {
   memo: Record<string, { box: number; due: string }>;
   /** Zakat calculator inputs. */
   zakat: Record<string, string>;
+  /** Duas the user has marked as learned in the dua levels. */
+  learned: string[];
   /** Missed (qada) prayers still to make up. */
   qada: Record<PrayerKey, number>;
   /** Tasbeeh counted today. */
@@ -73,6 +75,7 @@ export const DEFAULT_SETTINGS: Settings = {
   taraweeh: {},
   memo: {},
   zakat: {},
+  learned: [],
   qada: { fajr: 0, dhuhr: 0, asr: 0, maghrib: 0, isha: 0 },
   tasbeeh: { day: '', total: 0 },
 };

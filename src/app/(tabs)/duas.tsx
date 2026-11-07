@@ -28,6 +28,17 @@ export default function DuasScreen() {
       <ScrollView contentContainerStyle={s.page} keyboardShouldPersistTaps="handled">
         <Title>Duas</Title>
 
+        <Link href="/more/levels" asChild>
+          <Pressable style={s.levels}>
+            <Icon name="chart" color={colors.onInk} />
+            <View style={{ flex: 1 }}>
+              <Text style={s.levelsTitle}>Learn step by step</Text>
+              <Text style={s.levelsHint}>5 levels, from one-word phrases to long Quranic duas</Text>
+            </View>
+            <Icon name="chevronRight" size={18} color={colors.onInk} />
+          </Pressable>
+        </Link>
+
         <View style={s.search}>
           <Icon name="search" size={18} color={colors.textMuted} />
           <TextInput
@@ -81,6 +92,9 @@ export default function DuasScreen() {
 
 const s = StyleSheet.create({
   page: { padding: 20, gap: 14 },
+  levels: { flexDirection: 'row', alignItems: 'center', gap: 12, padding: 14, borderRadius: radius.lg, backgroundColor: colors.ink },
+  levelsTitle: { fontFamily: fonts.semibold, fontSize: 15, color: colors.onInk },
+  levelsHint: { fontFamily: fonts.regular, fontSize: 13, color: colors.onInkMuted },
   search: { flexDirection: 'row', alignItems: 'center', gap: 10, height: 48, paddingHorizontal: 16, borderRadius: 24, backgroundColor: colors.surface, borderWidth: 1, borderColor: colors.border },
   input: { flex: 1, fontFamily: fonts.regular, fontSize: 15, color: colors.text },
   grid: { flexDirection: 'row', flexWrap: 'wrap', gap: 10 },

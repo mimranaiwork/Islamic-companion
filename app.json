@@ -2,7 +2,7 @@
   "expo": {
     "name": "Islamic Companion",
     "slug": "islamic-companion",
-    "version": "1.3.0",
+    "version": "1.4.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -12,7 +12,7 @@
       "infoPlist": {
         "NSLocationWhenInUseUsageDescription": "Your location is used only on this phone to calculate prayer times and the Qibla direction."
       },
-      "buildNumber": "5"
+      "buildNumber": "6"
     },
     "android": {
       "adaptiveIcon": {
@@ -28,7 +28,7 @@
         "SCHEDULE_EXACT_ALARM",
         "POST_NOTIFICATIONS"
       ],
-      "versionCode": 5
+      "versionCode": 6
     },
     "web": {
       "favicon": "./assets/favicon.png"

@@ -1,4 +1,5 @@
 import { QURAN } from './quran.generated';
+import { COLLECTION } from './collection';
 import { SUKOON_DUAS } from './sukoon';
 import type { Dua, DuaCategory } from './types';
 
@@ -13,6 +14,9 @@ export const CATEGORIES: DuaCategory[] = [
   { id: 'gratitude', name: 'Gratitude', icon: 'sun' },
   { id: 'anger', name: 'Anger', icon: 'heart' },
   { id: 'sukoon', name: 'Peace of heart', icon: 'star' },
+  { id: 'after-prayer', name: 'After prayer · Quranic', icon: 'book' },
+  { id: 'protection', name: 'Protection', icon: 'shield' },
+  { id: 'daily', name: 'Toilet & mosque', icon: 'kaaba' },
 ];
 
 export const DUAS: Dua[] = [
@@ -152,7 +156,7 @@ export const DUAS: Dua[] = [
   },
 ];
 
-DUAS.push(...SUKOON_DUAS);
+DUAS.push(...SUKOON_DUAS, ...COLLECTION);
 
 DUAS.push(
   {

@@ -611,6 +611,90 @@
         "fromWord": 1,
         "toWord": 6
       }
+    ],
+    "taqabbal-minna": [
+      {
+        "surah": 2,
+        "ayah": 127,
+        "fromWord": 7
+      }
+    ],
+    "la-tuzigh": [
+      {
+        "surah": 3,
+        "ayah": 8
+      }
+    ],
+    "zalamna": [
+      {
+        "surah": 7,
+        "ayah": 23,
+        "fromWord": 1
+      }
+    ],
+    "qurrata-ayun": [
+      {
+        "surah": 25,
+        "ayah": 74,
+        "fromWord": 2
+      }
+    ],
+    "fa-ghfir-lana": [
+      {
+        "surah": 3,
+        "ayah": 193,
+        "fromWord": 10
+      },
+      {
+        "surah": 3,
+        "ayah": 194
+      }
+    ],
+    "ma-sha-allah": [
+      {
+        "surah": 18,
+        "ayah": 39,
+        "fromWord": 5,
+        "toWord": 11
+      }
+    ],
+    "inna-lillah": [
+      {
+        "surah": 2,
+        "ayah": 156,
+        "fromWord": 5
+      }
+    ],
+    "ishrah-li": [
+      {
+        "surah": 20,
+        "ayah": 25,
+        "fromWord": 1
+      },
+      {
+        "surah": 20,
+        "ayah": 26
+      }
+    ],
+    "musa-faqir": [
+      {
+        "surah": 28,
+        "ayah": 24,
+        "fromWord": 7
+      }
+    ],
+    "hasbiya-allah": [
+      {
+        "surah": 9,
+        "ayah": 129,
+        "fromWord": 3
+      }
+    ],
+    "allahu-latif": [
+      {
+        "surah": 42,
+        "ayah": 19
+      }
     ]
   }
 }
