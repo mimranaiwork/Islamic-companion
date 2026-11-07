@@ -7,7 +7,7 @@ import { colors, fonts, radius } from '../../theme';
 
 type Href =
   | '/more/tasbeeh' | '/more/tracker' | '/more/qibla' | '/more/fasting' | '/more/friday' | '/more/hajj'
-  | '/more/ramadan' | '/more/feeling' | '/more/hadith' | '/more/memorise' | '/more/zakat' | '/more/claims' | '/settings';
+  | '/more/ramadan' | '/more/sukoon' | '/more/feeling' | '/more/hadith' | '/more/memorise' | '/more/zakat' | '/more/claims' | '/settings';
 
 const SECTIONS: { title: string; tools: { href: Href; icon: IconName; title: string; hint: string }[] }[] = [
   {
@@ -24,6 +24,7 @@ const SECTIONS: { title: string; tools: { href: Href; icon: IconName; title: str
   {
     title: 'Duas and learning',
     tools: [
+      { href: '/more/sukoon', icon: 'star', title: 'دل کا سکون · Peace of heart', hint: 'Duas for grief, worry, anger and before sleep' },
       { href: '/more/feeling', icon: 'heart', title: "I'm feeling…", hint: 'Duas for anxiety, sadness, gratitude, illness' },
       { href: '/more/hadith', icon: 'book', title: 'Hadith of the day', hint: 'A short graded hadith every day' },
       { href: '/more/memorise', icon: 'refresh', title: 'Memorise', hint: 'Hide words step by step, with review reminders' },

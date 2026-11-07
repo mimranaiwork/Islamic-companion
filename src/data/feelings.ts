@@ -6,13 +6,13 @@ import type { Entry } from './types';
 export type Feeling = { id: string; label: string; note: string; ids: string[] };
 
 export const FEELINGS: Feeling[] = [
-  { id: 'anxious', label: 'Anxious', note: 'When worry weighs on you', ids: ['hamm-hazan', 'karb', 'bismillah-alladhi'] },
-  { id: 'sad', label: 'Sad', note: 'In grief or low moments', ids: ['yunus', 'hamm-hazan'] },
+  { id: 'anxious', label: 'Anxious', note: 'When worry weighs on you', ids: ['hamm-hazan', 'karb', 'hasbunallah', 'maal-usri-yusra', 'bismillah-alladhi'] },
+  { id: 'sad', label: 'Sad', note: 'In grief or low moments', ids: ['yunus', 'ayyub', 'yaqub', 'hamm-hazan', 'maal-usri-yusra'] },
   { id: 'grateful', label: 'Grateful', note: 'To give thanks', ids: ['gratitude', 'after-eating'] },
   { id: 'angry', label: 'Angry', note: 'To calm the heart', ids: ['anger'] },
-  { id: 'sick', label: 'Sick or in pain', note: 'For yourself or someone you visit', ids: ['pain', 'visiting-sick'] },
-  { id: 'sinful', label: 'Regretful', note: 'Seeking forgiveness', ids: ['sayyid-al-istighfar', 'yunus'] },
-  { id: 'afraid', label: 'Afraid', note: 'For protection', ids: ['ayat-al-kursi', 'audhu-bikalimat', 'al-falaq', 'an-nas'] },
+  { id: 'sick', label: 'Sick or in pain', note: 'For yourself or someone you visit', ids: ['pain', 'ayyub', 'visiting-sick'] },
+  { id: 'sinful', label: 'Regretful', note: 'Seeking forgiveness', ids: ['sayyid-al-istighfar', 'la-taqnatu', 'yunus'] },
+  { id: 'afraid', label: 'Afraid', note: 'For protection', ids: ['hasbunallah', 'kalla-inna-maiya', 'ayat-al-kursi', 'audhu-bikalimat', 'al-falaq', 'an-nas'] },
 ];
 
 const ALL: Entry[] = [...DUAS, ...ADHKAR];

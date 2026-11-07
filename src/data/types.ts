@@ -31,7 +31,7 @@ export type Dhikr = Entry & { sessions: Session[] };
 export type DuaCategory = {
   id: string;
   name: string;
-  icon: 'sun' | 'moon' | 'plane' | 'food' | 'heart' | 'plus';
+  icon: 'sun' | 'moon' | 'plane' | 'food' | 'heart' | 'plus' | 'star';
 };
 
 export type Dua = Entry & { category: string };

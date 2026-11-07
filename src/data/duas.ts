@@ -1,4 +1,5 @@
 import { QURAN } from './quran.generated';
+import { SUKOON_DUAS } from './sukoon';
 import type { Dua, DuaCategory } from './types';
 
 // See the note in adhkar.ts: every item needs scholar review before release.
@@ -11,6 +12,7 @@ export const CATEGORIES: DuaCategory[] = [
   { id: 'illness', name: 'Illness & pain', icon: 'plus' },
   { id: 'gratitude', name: 'Gratitude', icon: 'sun' },
   { id: 'anger', name: 'Anger', icon: 'heart' },
+  { id: 'sukoon', name: 'Peace of heart', icon: 'star' },
 ];
 
 export const DUAS: Dua[] = [
@@ -113,9 +115,9 @@ export const DUAS: Dua[] = [
     category: 'distress',
     title: 'For worry and sadness',
     arabic:
-      'اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْهَمِّ وَالْحَزَنِ، وَالْعَجْزِ وَالْكَسَلِ، وَالْبُخْلِ وَالْجُبْنِ، وَضَلَعِ الدَّيْنِ، وَغَلَبَةِ الرِّجَالِ',
-    urdu: 'اے اللہ! میں تیری پناہ مانگتا ہوں فکر اور غم سے، عاجزی اور سستی سے، کنجوسی اور بزدلی سے، قرض کے بوجھ سے اور لوگوں کے غلبے سے۔',
-    english: 'O Allah, I seek refuge in You from worry and grief, from helplessness and laziness, from miserliness and cowardice, from the burden of debt and from being overpowered by men.',
+      'اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْهَمِّ وَالْحَزَنِ، وَالْعَجْزِ وَالْكَسَلِ، وَالْجُبْنِ وَالْبُخْلِ، وَضَلَعِ الدَّيْنِ، وَغَلَبَةِ الرِّجَالِ',
+    urdu: 'اے اللہ! میں تیری پناہ مانگتا ہوں فکر اور غم سے، عاجزی اور سستی سے، بزدلی اور کنجوسی سے، قرض کے بوجھ سے اور لوگوں کے غلبے سے۔',
+    english: 'O Allah, I seek refuge in You from worry and grief, from helplessness and laziness, from cowardice and miserliness, from the burden of debt and from being overpowered by men.',
     count: 1,
     source: 'Sahih al-Bukhari 6369',
     grade: 'Sahih',
@@ -149,6 +151,8 @@ export const DUAS: Dua[] = [
     reviewed: false,
   },
 ];
+
+DUAS.push(...SUKOON_DUAS);
 
 DUAS.push(
   {

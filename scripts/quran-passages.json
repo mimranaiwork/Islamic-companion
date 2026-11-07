@@ -564,6 +564,53 @@
         "surah": 18,
         "ayah": 110
       }
+    ],
+    "ayyub": [
+      {
+        "surah": 21,
+        "ayah": 83,
+        "fromWord": 4
+      }
+    ],
+    "hasbunallah": [
+      {
+        "surah": 3,
+        "ayah": 173,
+        "fromWord": 13
+      }
+    ],
+    "kalla-inna-maiya": [
+      {
+        "surah": 26,
+        "ayah": 62,
+        "fromWord": 1
+      }
+    ],
+    "la-taqnatu": [
+      {
+        "surah": 39,
+        "ayah": 53,
+        "fromWord": 6,
+        "toWord": 10
+      }
+    ],
+    "maal-usri-yusra": [
+      {
+        "surah": 94,
+        "ayah": 5
+      },
+      {
+        "surah": 94,
+        "ayah": 6
+      }
+    ],
+    "yaqub": [
+      {
+        "surah": 12,
+        "ayah": 86,
+        "fromWord": 1,
+        "toWord": 6
+      }
     ]
   }
 }

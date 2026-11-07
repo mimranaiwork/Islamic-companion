@@ -66,5 +66,35 @@ export const QURAN = {
     "ref": "18:1–110",
     "partial": false,
     "bismillah": "بِسمِ اللَّهِ الرَّحمٰنِ الرَّحيمِ"
+  },
+  "ayyub": {
+    "text": "أَنّى مَسَّنِىَ الضُّرُّ وَأَنتَ أَرحَمُ الرّٰحِمينَ ﴿٨٣﴾",
+    "ref": "21:83",
+    "partial": true
+  },
+  "hasbunallah": {
+    "text": "حَسبُنَا اللَّهُ وَنِعمَ الوَكيلُ ﴿١٧٣﴾",
+    "ref": "3:173",
+    "partial": true
+  },
+  "kalla-inna-maiya": {
+    "text": "كَلّا إِنَّ مَعِىَ رَبّى سَيَهدينِ ﴿٦٢﴾",
+    "ref": "26:62",
+    "partial": true
+  },
+  "la-taqnatu": {
+    "text": "لا تَقنَطوا مِن رَحمَةِ اللَّهِ",
+    "ref": "39:53",
+    "partial": true
+  },
+  "maal-usri-yusra": {
+    "text": "فَإِنَّ مَعَ العُسرِ يُسرًا ﴿٥﴾ إِنَّ مَعَ العُسرِ يُسرًا ﴿٦﴾",
+    "ref": "94:5–6",
+    "partial": false
+  },
+  "yaqub": {
+    "text": "إِنَّما أَشكوا بَثّى وَحُزنى إِلَى اللَّهِ",
+    "ref": "12:86",
+    "partial": true
   }
 } as const satisfies Record<string, QuranPassage>;
